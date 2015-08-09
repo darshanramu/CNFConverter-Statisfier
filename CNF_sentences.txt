@@ -1,0 +1,14 @@
+Question:
+5
+["implies", ["and", ["not", "R"], "B"], "W"]
+["not", ["implies", ["implies", ["or", "P", ["not", "Q"]], "R"], ["and", "P", "R"]]]
+["or", ["not", ["implies", "P", "Q"]], ["implies", "R", "P"]]
+["not", ["not", ["not", ["not", ["not", "P"]]]]]
+["or", ["and", "A", "B"], ["and", "C", "D"]]
+
+Answer:
+["or", "R", ["not", "B"], "W"]
+["and", ["or", ["not", "P"], "R"], ["or", "Q", "R"], ["or", ["not", "P"], ["not", "R"]]]
+["and", ["or", "P", ["not", "R"]], ["or", ["not", "Q"], ["not", "R"], "P"]]
+["not", "P"]
+["and", ["or", "C", "A"], ["or", "D", "A"], ["or", "C", "B"], ["or", "D", "B"]]
